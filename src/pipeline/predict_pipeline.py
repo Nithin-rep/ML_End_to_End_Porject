@@ -9,8 +9,8 @@ class PredictPipeline:
 
     def predict(self, features):
     
-        model_path= r"C:\Users\Nithin\Desktop\ML_End_to_End\notebook\model.pkl"
-        preprocessor_path= r"C:\Users\Nithin\Desktop\ML_End_to_End\notebook\preprocessor.pkl"
+        model_path= r"C:\Users\Nithin\Desktop\ML_End_to_End\artifacts\model.pkl"
+        preprocessor_path= r"C:\Users\Nithin\Desktop\ML_End_to_End\artifacts\preprocessor.pkl"
         print("Before Loading")
 
         with open(model_path, 'rb') as model_file:
